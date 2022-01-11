@@ -94,7 +94,7 @@ hr {
 }
 
 .course {
-  box-shadow: 0 5px 13.36px rgba(0, 0, 0, 0.05);
+  /* box-shadow: 0 5px 13.36px rgba(0, 0, 0, 0.05); */
   border-radius: 15px;
   padding: 13px;
 }
@@ -136,6 +136,13 @@ hr {
 span {
   font-size: 15px;
   font-weight: 500;
+}
+
+.player:hover,
+.blog:hover,
+.course:hover {
+  box-shadow: 0 5px 13.36px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
 }
 
 /* Media Query for small screen device */
