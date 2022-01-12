@@ -68,6 +68,12 @@ header {
   color: #000000;
 }
 
+.fa-bars {
+  font-size: 25px;
+}
+.display {
+  display: none;
+}
 /* top player style  */
 .section-title {
   color: #562eff;
@@ -202,6 +208,12 @@ span {
     width: 100%;
     padding: 0 10px;
   }
+  .visibility {
+    display: none;
+  }
+  .display {
+    display: inline-block;
+  }
   .section-title {
     text-align: center;
     font-size: 45px;
@@ -239,6 +251,12 @@ span {
   }
   .container {
     width: 90%;
+  }
+  .visibility {
+    display: none;
+  }
+  .display {
+    display: inline-block;
   }
   .section-title {
     text-align: center;
