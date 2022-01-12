@@ -207,6 +207,7 @@ span {
   .nav-bar {
     width: 100%;
     padding: 0 10px;
+    justify-content: space-evenly;
   }
   .visibility {
     display: none;
@@ -245,12 +246,13 @@ span {
 }
 
 @media only screen and (min-width: 689px) and (max-width: 992px) {
+  .container {
+    width: 90%;
+  }
   .nav-bar {
     width: 100%;
     padding: 0 10px;
-  }
-  .container {
-    width: 90%;
+    justify-content: space-evenly;
   }
   .visibility {
     display: none;
